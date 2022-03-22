@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background: #e3e6eb;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: white;
+  width: 70vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+.create-playlist {
+  margin: 0 auto;
+}
+
+/* .create-playlist h1 {
+  margin: 20px 0;
+} */
+
+input,
+textarea,
+.submit {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+}
+
+input,
+textarea {
+  border: 1px solid #e3e6eb;
+  resize: none;
+  font-size: 0.9em;
+  font-weight: lighter;
+  border-radius: 5px;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid gray;
+  transition: 0.5s all;
+}
+
+input:active,
+textarea:active,
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid gray;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+.form label {
+  margin: 20px 0;
+  font-weight: bold;
+}
