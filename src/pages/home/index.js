@@ -5,8 +5,10 @@ import './style.css'
 
 const Home = () => {
   return (
-    <div class="info">
-      <Track albumImage={data.album.images[0].url} albumName={data.album.artists.name} songName={data.album.name} artistName={data.name}/>
+    <div className="info">
+      {
+        data.map(track => <Track albumImage={track.album.images[0].url} albumName={track.album.artists.name} songName={track.album.name} artistName={track.artists[0].name}/>)
+      }
     </div>
   )
 }

@@ -24,8 +24,6 @@ body {
   height: auto;
   margin: auto;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
   border-radius: 5px;
   padding: 20px 0;
 }
@@ -81,8 +79,14 @@ textarea {
 }
 
 .info {
-  margin: 0 auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
   text-align: center;
+}
+
+.track{
+  margin:10px;
 }
 
 .form {
